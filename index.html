@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delish Bites - Home</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <style>
+        .featured-dishes div img{
+            height: 200px;
+        }
+        ul {
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .featured-dishes{
+            width: 100%;
+            display: flex;
+
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <h1>Delish Bites</h1>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="reservation.html">Reservations</a></li>
+        </ul>
+
+        <a href="login.html" class="login-icon">
+            <i class="fas fa-user-circle"></i>
+        </a>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h2>Where Every Meal is a Masterpiece, Grab Now!</h2>
+        <video autoplay muted loop>
+            <source src="./Recording 2024-12-18 025942.mp4" type="video/mp4">
+            Your browser does not support video playback.
+        </video>
+        <div class="hero-images">
+            <img src="./Park.jpeg" alt="Interior 1">
+            <img src="./res.jpg" alt="Interior 2">
+            <img src="./tro.jpg" alt="Interior 3">
+        </div>
+    </section>
+
+    <!-- About Us -->
+    <section class="about-us">
+        <h2>About Us</h2>
+        <p>Delish Bites is your go-to destination for delicious, mouth-watering meals made with love and the freshest ingredients. Join us for an unforgettable dining experience!</p>
+    </section>
+
+    <!-- Featured Dishes -->
+    <div class="featured-dishes">
+        <h2>Our Specialties</h2>
+        <div class="dish">
+            <a href="https://www.zomato.com/"><img src="./red-sauce-pasta-1.jpg" alt="Pasta"></a>
+            <p>Delicious Italian Pasta</p>
+        </div>
+        <div class="dish">
+            <img src="./hh.webp" alt="Burger">
+            <p>Juicy Cheeseburger</p>
+        </div>
+        <div class="dish">
+            <img src="./images.jpeg" alt="Pizza">
+            <p>Classic Margherita Pizza</p>
+        </div>
+    </div>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <h2>What Our Customers Say</h2>
+        <div class="reviews-container">
+            <div class="review-box">
+                <p>"The best dining experience I've ever had! The food is fantastic, and the staff are so welcoming."</p>
+                <span>- Sarah K.</span>
+            </div>
+            <div class="review-box">
+                <p>"Absolutely loved the pasta here. Highly recommend it!"</p>
+                <span>- John D.</span>
+            </div>
+            <div class="review-box">
+                <p>"A cozy ambiance and delicious meals. Perfect for a family dinner!"</p>
+                <span>- Emily R.</span>
+            </div>
+            <div class="review-box">
+                <p>"The burgers were juicy, fresh, and unforgettable!"</p>
+                <span>- Michael W.</span>
+            </div>
+            <!-- User Review Box -->
+            <div class="review-box user-review">
+                <form>
+                    <label for="user-review">Add Your Review:</label>
+                    <textarea id="user-review" placeholder="Write your review here..."></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact">
+        <h2>Visit Us Today!</h2>
+        <p>📍 Address: Foodie Street, Delhi</p>
+        <p>📞 Call: +91-96969-69696</p>
+    </section>
+</body>
+</html>

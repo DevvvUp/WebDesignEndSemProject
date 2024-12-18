@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delish Bites - Reservations</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <h1>Delish Bites</h1>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="reservation.html">Reservations</a></li>
+            <li><a href="login.html">Login</a></li>
+        </ul>
+    </nav>
+
+    <!-- Reservation Form -->
+    <section>
+        <h2>Book a Table</h2>
+        <form id="reservationForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+            <label for="date">Date:</label>
+            <input type="date" id="date" required>
+            <label for="time">Time:</label>
+            <input type="time" id="time" required>
+            <button type="submit">Reserve</button>
+        </form>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
